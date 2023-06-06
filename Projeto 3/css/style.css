@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+}
+.container{
+width: 1500;
+height: 80px;    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color:  hwb(286 0% 0%);
+border: 10px;
+border-color: rgb(5, 20, 185);
+border-style: groove;
+text-shadow: 2px 2px hwb(286 0% 34%);
+}
+.container2{
+width: 300px;
+height: 400px;    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: hwb(286 0% 0%);
+border: 10px;
+border-color: rgb(5, 20, 185);
+border-style: groove;    
+}
+.container3{
+    opacity: 50%;
+}
+.animacao{
+width: 100px;   
+height: 100px;
+background-color: red;
+animation-name: rotacao;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+border-radius: 50%;
+}
+@keyframes rotacao{
+0% {
+    transform: rotate(0deg);
+}
+{
+    transform: rotate(360deg)
+}
+}
+
+.caneta{
+    top: 100px;
+}
+.gato{
+    border-top: 0vw;
+    width: 100%;
+}
